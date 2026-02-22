@@ -1,0 +1,15 @@
+Crowd Detecting and Alerting System
+
+The Crowd Detecting and Alert System is an IoT-based solution designed to monitor and control the number of people present in a specific area. 
+The system uses infrared (IR) sensors placed at entry and exit points to detect human movement. 
+Based on the sensor inputs, the ESP8266 microcontroller updates the occupancy count in real time.
+
+When the number of people exceeds a predefined limit, the system activates a red LED and buzzer to indicate overcrowding. 
+If the occupancy remains within safe limits, a green LED glows to indicate availability. 
+A push button is provided to reset the count when required.
+
+The system is integrated with the Blynk IoT platform, enabling remote monitoring through a mobile application. 
+The live crowd count is displayed using gauge and label widgets, while LED widgets indicate the occupancy status. 
+This cloud connectivity allows administrators to monitor crowd levels from anywhere, ensuring safety and effective space management.
+
+Overall, the system provides an efficient, low-cost, and reliable solution for automatic crowd monitoring and alert generation in environments such as classrooms, halls, offices, and public spaces.
